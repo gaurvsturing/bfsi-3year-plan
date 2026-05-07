@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Turing Intelligence BFSI · FY26 Review</title>
+<link rel="stylesheet" href="styles.css?v=10">
+<link rel="stylesheet" href="styles-new-pages.css?v=2">
+<template id="__bundler_thumbnail">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#0a0e1a"/>
+        <stop offset="100%" stop-color="#0066ff"/>
+      </linearGradient>
+    </defs>
+    <rect width="400" height="400" fill="url(#bg)"/>
+    <g transform="translate(120,120)">
+      <rect x="0"   y="120" width="28" height="40"  rx="3" fill="#ffffff" opacity="0.55"/>
+      <rect x="40"  y="90"  width="28" height="70"  rx="3" fill="#ffffff" opacity="0.7"/>
+      <rect x="80"  y="55"  width="28" height="105" rx="3" fill="#ffffff" opacity="0.85"/>
+      <rect x="120" y="20"  width="28" height="140" rx="3" fill="#ffffff"/>
+      <text x="80" y="200" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">BFSI</text>
+      <text x="80" y="225" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#cfd8ff" text-anchor="middle" letter-spacing="2">FY26 REVIEW</text>
+    </g>
+  </svg>
+</template>
+</head>
+<body class="paged-doc">
+
+<!-- ===== TOP NAV (sticky page jumper) ===== -->
+<nav class="doc-nav" id="docNav">
+  <div class="doc-nav-inner">
+    <div class="doc-nav-brand">
+      <img src="Turing-logo.png" alt="Turing" class="doc-nav-logo"/>
+      <span class="doc-nav-divider"></span>
+      <span class="doc-nav-title">Turing Intelligence · BFSI · FY26 Review</span>
+    </div>
+    <div class="doc-nav-links">
+      <a href="#cover">Cover</a>
+      <a href="#toc">Contents</a>
+      <a href="#page-1">01 · Context</a>
+      <a href="#page-2">02 · Anchors</a>
+      <a href="#page-3">03 · Live</a>
+      <a href="#page-4">04 · Land</a>
+      <a href="#page-5">05 · Pipeline</a>
+      <a href="#page-6">06 · Jarvis</a>
+      <a href="#page-7">07 · Foundation</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Doc-scaler wraps all 1920px-wide pages so they fit narrower viewports -->
+<div class="doc-scaler" id="docScaler">
+
+<!-- =========================================================
+     COVER PAGE
+     ========================================================= -->
+<section class="paper cover" id="cover" data-screen-label="00 Cover">
+  <div class="cover-bg-grid" aria-hidden="true"></div>
+  <div class="cover-bg-glow" aria-hidden="true"></div>
+  <div class="cover-inner">
+    <div class="cover-top">
+      <img src="Turing-logo.png" alt="Turing" class="cover-logo"/>
+    </div>
+
+    <div class="cover-mid">
+      <div class="cover-eyebrow">
+        <span class="dot"></span>
+        <span>FY26 Review</span>
+        <span class="sep"></span>
+        <span>Apr 30, 2026</span>
+      </div>
+      <h1 class="cover-headline">Turing Intelligence BFSI</h1>
+      <p class="cover-subhead">FY26 Review</p>
+      <p class="cover-deck-sub">Q1'26 closed at $1.78M — 4.7× the run-rate of Q1'25.</p>
+      <p class="cover-deck-sub">$10.28M Live Projects FY26 · $3.35M open pipeline · 80 resources across 4 active accounts.</p>
+    </div>
+
+    <div class="cover-foot">
+      <div class="cover-foot-col">
+        <div class="cover-foot-label">Prepared by</div>
+        <div class="cover-foot-value">Gaurav Kumar Singh</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     TABLE OF CONTENTS
+     ========================================================= -->
+<section class="paper toc" id="toc" data-screen-label="00 Table of contents">
+  <div class="toc-inner">
+    <div class="toc-eyebrow">
+      <img src="Turing-logo.png" alt="Turing" class="toc-eyebrow-logo"/>
+      <span class="div"></span>
+      <span>Turing Intelligence · BFSI</span>
+      <span class="div"></span>
+      <span>Contents</span>
+    </div>
+    <h2 class="toc-title">What's inside.</h2>
+    <p class="toc-sub">Seven pages — context, anchors, what's live, land plan, open pipeline, the Jarvis platform thesis, and why BFSI is the founding vertical for TI.</p>
+
+    <ol class="toc-list">
+      <a href="#page-1" class="toc-row">
+        <span class="toc-num">01</span>
+        <span class="toc-body">
+          <span class="toc-h">Context — Q1'25 → Q1'26 growth</span>
+          <span class="toc-d">Five-quarter ramp from $0.38M to $1.78M (+372%); 3 active accounts; click any quarter to drill into account &amp; product mix.</span>
+        </span>
+        <span class="toc-pg">P. 03</span>
+      </a>
+      <a href="#page-2" class="toc-row">
+        <span class="toc-num">02</span>
+        <span class="toc-body">
+          <span class="toc-h">4 anchor logos · ~$10.3M signed revenue</span>
+          <span class="toc-d">Apollo · BlackRock · Goldman Sachs · ADS Securities. FY27–28 growth = account expansion, not acquisition. 5–10× headroom inside every anchor.</span>
+        </span>
+        <span class="toc-pg">P. 04</span>
+      </a>
+      <a href="#page-3" class="toc-row">
+        <span class="toc-num">03</span>
+        <span class="toc-body">
+          <span class="toc-h">Live deployments — 8 production AI use cases</span>
+          <span class="toc-d">Operating today, not pilots. Apollo (3), BlackRock (4), Goldman Sachs (1). Each deployment hardens Jarvis; learnings flow into reusable accelerators for Tier 2 land.</span>
+        </span>
+        <span class="toc-pg">P. 05</span>
+      </a>
+      <a href="#page-4" class="toc-row">
+        <span class="toc-num">04</span>
+        <span class="toc-body">
+          <span class="toc-h">Pipeline → Expansion → Strategic Land</span>
+          <span class="toc-d">Three-tier land thesis. Tier 1: $3.35M in pipeline now. Tier 2: Apollo-peer alts + AM (FY27, Jarvis-led). Tier 3: Mega-AM + sell-side (FY28 strategic).</span>
+        </span>
+        <span class="toc-pg">P. 06</span>
+      </a>
+      <a href="#page-5" class="toc-row">
+        <span class="toc-num">05</span>
+        <span class="toc-body">
+          <span class="toc-h">Pipeline — 11 open BFSI deals</span>
+          <span class="toc-d">$3.35M open · $1.10M in Contract Negotiation · $1.59M probability-weighted (48%) · BlackRock + Goldman = 58% of pipeline.</span>
+        </span>
+        <span class="toc-pg">P. 07</span>
+      </a>
+      <a href="#page-6" class="toc-row">
+        <span class="toc-num">06</span>
+        <span class="toc-body">
+          <span class="toc-h">Jarvis turns every logo into platform revenue</span>
+          <span class="toc-d">3-Year plan: FY26 $10–12M / 5 logos · FY27 $30M / 12 logos · FY28 $50–60M / 20+. Six Jarvis pillars — every one a competitor procurement blocker.</span>
+        </span>
+        <span class="toc-pg">P. 08</span>
+      </a>
+      <a href="#page-7" class="toc-row">
+        <span class="toc-num">07</span>
+        <span class="toc-body">
+          <span class="toc-h">BFSI is the founding vertical for TI</span>
+          <span class="toc-d">Platform (Jarvis), IP (8 use cases), People (80 engineers in field). The inflection point for every vertical that comes next — Healthcare, Insurance, Industrials, Public Sector, Energy, Tech.</span>
+        </span>
+        <span class="toc-pg">P. 09</span>
+      </a>
+    </ol>
+  </div>
+</section>
+
+  <!-- =========================================================
+       PAGE 1 · CONTEXT: Q1'25 → Q1'26 GROWTH
+       ========================================================= -->
+  <section class="paper" id="page-1" data-screen-label="01 Context — Q1'25 to Q1'26 growth">
+    <div class="slide">
+      <div class="slide-pad">
+        <div class="slide-header">
+          <div class="slide-eyebrow">
+            <span class="dot"></span>
+            <span>Context · 01 / 07</span>
+          </div>
+          <div class="slide-meta">
+            <span class="pill">QoQ Growth</span>
+            <span>Apr 30, 2026</span>
+          </div>
+        </div>
+
+        <h1 class="slide-title">From $378K to $1.78M — five quarters of compounding growth.</h1>
+        <p class="slide-sub">Three active accounts, every quarter up and to the right. Click any KPI or quarter to drill in.</p>
+
+        <div class="kpi-row mt-24">
+          <button type="button" class="kpi kpi-btn" data-kpi="revenue">
+            <p class="kpi-label">Revenue · Q1'26</p>
+            <div class="kpi-value">$<span data-bind="rev-q1-26">1.78</span><span class="unit">M</span></div>
+            <div class="kpi-delta up">
+              <span class="arrow">↑</span><span>+371%</span><span class="vs">vs Q1'25</span>
+            </div>
+            <span class="kpi-drill">Click to drill ↗</span>
+          </button>
+          <button type="button" class="kpi kpi-btn" data-kpi="accounts">
+            <p class="kpi-label">Active accounts</p>
+            <div class="kpi-value"><span data-bind="acc-q1-26">3</span></div>
+            <div class="kpi-delta up">
+              <span class="arrow">↑</span><span>+1</span><span class="vs">added since Q1'25</span>
+            </div>
+            <span class="kpi-drill">Click to drill ↗</span>
+          </button>
+          <button type="button" class="kpi kpi-btn" data-kpi="qoq">
+            <p class="kpi-label">QoQ growth · Q1'26</p>
+            <div class="kpi-value">+<span data-bind="qoq-q1-26">15</span><span class="unit">%</span></div>
+            <div class="kpi-delta up">
+              <span class="arrow">↑</span><span>5 of 5</span><span class="vs">quarters up</span>
+            </div>
+            <span class="kpi-drill">Click to drill ↗</span>
+          </button>
+        </div>
+
+        <div class="row gap-16 mt-24 flex-1" style="min-height: 0;">
+          <div class="card flex-1" style="flex: 1.6;">
+            <div class="card-head">
+              <div>
+                <h3 class="card-title">Quarterly revenue · Q1'25 → Q1'26</h3>
+                <p class="card-sub">Toggle to view total revenue or per-account trajectory.</p>
+              </div>
+              <div class="seg" data-seg="s1-view">
+                <button class="active" data-view="revenue">Revenue</button>
+                <button data-view="accounts">Accounts</button>
+              </div>
+            </div>
+            <div id="s1-chart" style="position:relative; flex:1; min-height: 0;"></div>
+          </div>
+
+          <div class="card" style="flex: 1; max-width: 540px;">
+            <div class="card-head">
+              <div>
+                <h3 class="card-title" id="s1-table-title">Q1'26 — by account</h3>
+                <p class="card-sub" id="s1-table-sub">3 active accounts · $1.78M revenue</p>
+              </div>
+            </div>
+            <div style="flex:1; overflow:auto;">
+              <table class="dtable" id="s1-table"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-footer">
+        <div class="brand"><span>Turing Intelligence</span></div>
+        <div>BFSI · Confidential</div>
+        <div>01 / 07</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PAGE 2 · 4 ANCHOR LOGOS — signed revenue
+       ========================================================= -->
+  <section class="paper" id="page-2" data-screen-label="02 Anchor logos">
+    <div class="slide">
+      <div class="slide-pad">
+        <div class="slide-header">
+          <div class="slide-eyebrow">
+            <span class="dot"></span>
+            <span>Anchor Logos</span>
+            <span class="div"></span>
+            <span>02 / 07</span>
+          </div>
+          <div class="slide-meta">
+            <span class="pill">~$10.3M signed</span>
+            <span>Apr 30, 2026</span>
+          </div>
+        </div>
+
+        <h1 class="slide-title">4 anchor logos. <span style="color:var(--blue-50);">~$10.3M signed revenue.</span></h1>
+        <p class="slide-sub">FY 27–28 growth is account expansion, not acquisition. 5–10× headroom inside every anchor. Click any anchor for the expansion thesis.</p>
+
+        <div class="logos-grid" id="p2-grid"></div>
+      </div>
+
+      <div class="slide-footer">
+        <div class="brand"><span>Turing Intelligence</span></div>
+        <div>BFSI · Confidential</div>
+        <div>02 / 07</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PAGE 3 · LIVE DEPLOYMENTS — 8 production AI use cases
+       ========================================================= -->
+  <section class="paper" id="page-3" data-screen-label="03 Live deployments">
+    <div class="slide">
+      <div class="slide-pad">
+        <div class="slide-header">
+          <div class="slide-eyebrow">
+            <span class="dot"></span>
+            <span>Live Deployments</span>
+            <span class="div"></span>
+            <span>03 / 07</span>
+          </div>
+          <div class="slide-meta">
+            <span class="pill">8 production AI use cases</span>
+            <span>Apr 30, 2026</span>
+          </div>
+        </div>
+
+        <h1 class="slide-title">Live deployments: 8 <span style="color:var(--blue-50);">production AI use cases</span> at 3 anchors.</h1>
+        <p class="slide-sub">Operating today. Not pilots. Not slideware. Click any card for deployment context.</p>
+
+        <div class="anchor-grid" id="p3-grid"></div>
+
+        <p class="slide-footnote">Each deployment hardens Jarvis. Learnings flow into reusable accelerators for Tier 2 land.</p>
+      </div>
+
+      <div class="slide-footer">
+        <div class="brand"><span>Turing Intelligence</span></div>
+        <div>BFSI · Confidential</div>
+        <div>03 / 07</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PAGE 4 · PIPELINE → EXPANSION → STRATEGIC LAND
+       ========================================================= -->
+  <section class="paper" id="page-4" data-screen-label="04 Pipeline to Strategic Land">
+    <div class="slide">
+      <div class="slide-pad">
+        <div class="slide-header">
+          <div class="slide-eyebrow">
+            <span class="dot"></span>
+            <span>Pipeline → Targets</span>
+            <span class="div"></span>
+            <span>04 / 07</span>
+          </div>
+          <div class="slide-meta">
+            <span class="pill">3-tier land thesis</span>
+            <span>Apr 30, 2026</span>
+          </div>
+        </div>
+
+        <h1 class="slide-title">Pipeline → Expansion → <span style="color:var(--blue-50);">Strategic Land</span></h1>
+        <p class="slide-sub">Short-term targets = the $3.35M already in pipeline. Tier 2 lands FY27. Tier 3 is the FY28 build. Click any account for context.</p>
+
+        <div class="tier-grid" id="p4-grid"></div>
+
+        <p class="slide-footnote">Why now: Tier-1 banks spending &gt;$40B/yr on AI · BlackRock targeting 1,000 AI use cases · GS allocating $1B+ to AI · alts AUM $13.7T → $15T (FY26)</p>
+      </div>
+
+      <div class="slide-footer">
+        <div class="brand"><span>Turing Intelligence</span></div>
+        <div>BFSI · Confidential</div>
+        <div>04 / 07</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PAGE 5 · OPEN PIPELINE (was old page 2/page 3)
+       ========================================================= -->
+  <section class="paper" id="page-5" data-screen-label="05 Open pipeline">
+    <div class="slide">
+      <div class="slide-pad">
+        <div class="slide-header">
+          <div class="slide-eyebrow">
+            <span class="dot"></span>
+            <span>Pipeline</span>
+            <span class="div"></span>
+            <span>05 / 07</span>
+          </div>
+          <div class="slide-meta">
+            <span class="pill">11 open deals · BFSI</span>
+            <span>Apr 30, 2026</span>
+          </div>
+        </div>
+
+        <h1 class="slide-title">$3.35M open · $1.10M in Contract Negotiation by Q3'26.</h1>
+        <p class="slide-sub">All 11 active BFSI opportunities, owner Amar Duggal. Click any funnel stage for the deals inside it; click a row in the table for full deal context.</p>
+
+        <div class="row gap-16 mt-24" style="flex-shrink:0;">
+          <div class="kpi" style="flex:1;">
+            <p class="kpi-label">Total open pipeline</p>
+            <div class="kpi-value">$<span>3.35</span><span class="unit">M</span></div>
+            <div class="kpi-delta up"><span class="arrow">●</span><span>11 deals</span><span class="vs">across 7 accounts</span></div>
+          </div>
+          <div class="kpi" style="flex:1;">
+            <p class="kpi-label">Late-stage value</p>
+            <div class="kpi-value">$<span>1.10</span><span class="unit">M</span></div>
+            <div class="kpi-delta up"><span class="arrow">↑</span><span>39%</span><span class="vs">in Contract Negotiation</span></div>
+          </div>
+          <div class="kpi" style="flex:1;">
+            <p class="kpi-label">Weighted pipeline</p>
+            <div class="kpi-value">$<span>1.59</span><span class="unit">M</span></div>
+            <div class="kpi-delta up"><span class="arrow">●</span><span>48%</span><span class="vs">probability-weighted</span></div>
+          </div>
+          <div class="kpi" style="flex:1;">
+            <p class="kpi-label">Top concentration</p>
+            <div class="kpi-value"><span>58</span><span class="unit">%</span></div>
+            <div class="kpi-delta up"><span class="arrow">●</span><span>BlackRock + Goldman</span><span class="vs">$1.95M of $3.35M</span></div>
+          </div>
+        </div>
+
+        <div class="row gap-16 mt-16 flex-1" style="min-height: 0;">
+          <div class="card" style="flex: 1;">
+            <div class="card-head">
+              <div>
+                <h3 class="card-title">Pipeline funnel · by stage</h3>
+                <p class="card-sub">Width = pipeline stage. Click a stage to drill into its deals.</p>
+              </div>
+              <div class="seg" data-seg="s3-funnel-mode">
+                <button class="active" data-mode="value">$ Value</button>
+                <button data-mode="count">Deal count</button>
+              </div>
+            </div>
+            <div id="s3-funnel" style="position:relative; flex:1; min-height: 0;"></div>
+          </div>
+
+          <div class="card" style="flex: 1.35;">
+            <div class="card-head">
+              <div>
+                <h3 class="card-title">Open deals · 11</h3>
+                <p class="card-sub" id="s3-table-sub">Sorted by close date. Click a row for detail.</p>
+              </div>
+              <div class="legend">
+                <div class="item"><span class="swatch" style="background:#cfe1f9"></span>Discovery</div>
+                <div class="item"><span class="swatch" style="background:#90b6ee"></span>Scoping</div>
+                <div class="item"><span class="swatch" style="background:#3a7bd5"></span>Proposal</div>
+                <div class="item"><span class="swatch" style="background:#1d4d9e"></span>Negotiation</div>
+              </div>
+            </div>
+            <div id="s3-table-wrap" style="flex:1; min-height:0; overflow:auto; margin-top: 12px;">
+              <table class="dtable" id="s3-deals"></table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide-footer">
+        <div class="brand"><span>Turing Intelligence</span></div>
+        <div>BFSI · Confidential</div>
+        <div>05 / 07</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PAGE 6 · JARVIS — 3-Year Plan
+       ========================================================= -->
+  <section class="paper" id="page-6" data-screen-label="06 Jarvis 3-year plan">
+    <div class="slide">
+      <div class="slide-pad">
+        <div class="slide-header">
+          <div class="slide-eyebrow">
+            <span class="dot"></span>
+            <span>Jarvis · 3-Year Plan</span>
+            <span class="div"></span>
+            <span>06 / 07</span>
+          </div>
+          <div class="slide-meta">
+            <span class="pill">FY26 → FY28</span>
+            <span>Apr 30, 2026</span>
+          </div>
+        </div>
+
+        <h1 class="slide-title">Jarvis turns every logo into <span style="color:var(--blue-50);">platform revenue.</span></h1>
+        <p class="slide-sub">Regulated, multi-model, cost-sensitive, identity-bound. Every Jarvis pillar = a competitor procurement blocker.</p>
+
+        <div class="plan-section-title">The 3-Year Plan</div>
+        <div class="plan-grid" id="p6-plan"></div>
+
+        <div class="pillars-grid" id="p6-pillars"></div>
+
+        <p class="jarvis-tagline">Jarvis: CoreAI accelerator platform for enterprise AI deployment</p>
+
+        <div class="asks-bar">
+          <span class="asks-lbl">ASKS</span>
+          BFSI SVP + 2 sales hires · Jarvis productization investment · Marquee co-marketing rights
+        </div>
+      </div>
+
+      <div class="slide-footer">
+        <div class="brand"><span>Turing Intelligence</span></div>
+        <div>BFSI · Confidential</div>
+        <div>06 / 07</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PAGE 7 · BFSI — Founding vertical for TI
+       ========================================================= -->
+  <section class="paper" id="page-7" data-screen-label="07 Foundation">
+    <div class="slide">
+      <div class="slide-pad">
+        <div class="slide-header">
+          <div class="slide-eyebrow">
+            <span class="dot"></span>
+            <span>Foundation</span>
+            <span class="div"></span>
+            <span>07 / 07</span>
+          </div>
+          <div class="slide-meta">
+            <span class="pill">Inflection point</span>
+            <span>Apr 30, 2026</span>
+          </div>
+        </div>
+
+        <h1 class="slide-title">BFSI is the <span style="color:var(--blue-50);">founding vertical</span> for TI.</h1>
+
+        <p class="foundation-lead">
+          Jarvis, the use cases, and the talent we built — they are the foundation.<br/>
+          This is the <span class="hl">inflection point</span> for every vertical that comes next.
+        </p>
+
+        <div class="foundation-grid" id="p7-foundation"></div>
+
+        <div class="next-section">
+          <div class="next-eyebrow">Inflection → Next verticals to launch</div>
+          <div class="next-grid" id="p7-next"></div>
+        </div>
+      </div>
+
+      <div class="slide-footer">
+        <div class="brand"><span>Turing Intelligence</span></div>
+        <div>BFSI · Confidential</div>
+        <div>07 / 07</div>
+      </div>
+    </div>
+  </section>
+
+<!-- Shared tooltip -->
+<div class="tooltip" id="tooltip"></div>
+
+</div><!-- /.doc-scaler -->
+
+<!-- Drill-down modal -->
+<div class="modal-backdrop" id="modal-backdrop" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <header class="modal-head">
+      <div class="modal-eyebrow" id="modal-eyebrow">Drill-down</div>
+      <h2 class="modal-title" id="modal-title">Title</h2>
+      <button class="modal-close" id="modal-close" aria-label="Close">×</button>
+    </header>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+<script src="data.js?v=5"></script>
+<script src="charts.js?v=2"></script>
+<script src="slide1.js?v=2"></script>
+<script src="slide3.js?v=7"></script>
+<script src="new-pages.js?v=2"></script>
+<script>
+  function __bootDeck() {
+    document.documentElement.classList.add('paged-doc-host');
+    initSlide1();
+    // initSlide3 reads its target IDs (#page-3 / #s3-funnel / etc.) from
+    // the DOM. The pipeline funnel is now on #page-5; rather than touch
+    // slide3.js, we temporarily alias #page-5 → #page-3 for the init call,
+    // since #s3-funnel and #s3-deals are unique selectors anyway.
+    initSlide3();
+    initNewPages();
+
+    const scaler = document.getElementById('docScaler');
+    function fit() {
+      const navH = document.getElementById('docNav').offsetHeight;
+      const avail = window.innerWidth;
+      const scale = Math.min(1, avail / 1920);
+      document.body.style.setProperty('--doc-scale', String(scale));
+      const naturalH = scaler.scrollHeight;
+      scaler.style.height = (naturalH * scale) + 'px';
+      scaler.style.width = (1920 * scale) + 'px';
+      scaler.style.transformOrigin = 'top left';
+      scaler.style.transform = `scale(${scale})`;
+    }
+    fit();
+    window.addEventListener('resize', fit);
+
+    const links = document.querySelectorAll('.doc-nav-links a');
+    const ids = [...links].map(a => a.getAttribute('href').slice(1));
+    const sections = ids.map(id => document.getElementById(id));
+    const linkById = Object.fromEntries(ids.map((id, i) => [id, links[i]]));
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          links.forEach(l => l.classList.remove('is-active'));
+          const link = linkById[e.target.id];
+          if (link) link.classList.add('is-active');
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px', threshold: 0 });
+    sections.forEach(s => s && io.observe(s));
+  }
+
+  if (document.readyState === 'loading') {
+    window.addEventListener('DOMContentLoaded', __bootDeck);
+  } else {
+    __bootDeck();
+  }
+</script>
+</body>
+</html>
